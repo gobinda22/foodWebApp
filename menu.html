@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="menu.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header_class">Menu</header>
+    <div class="center_buttons">
+        <button onclick="getMenu()">Show Menu</button>
+        <button id="order-button" onclick="clickme()">Place A Order</button>
+    </div>
+    <section id="menu" style="height: 71vh;">
+        <table id="menu-list">
+              <tr >
+                
+              </tr>
+            </thead>
+            <tbody id="menuTableBody"></tbody>
+          </table>
+      </section>
+      <section id="order_status">
+    
+      </section>
+      <div class="center_buttons"><button id="payment-button" style="display: none;" onclick="payOrder()">Make Payment</button></div>
+      <script src="script.js"></script>
+</body>
+</html>

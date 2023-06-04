@@ -1,0 +1,97 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    color: rgb(251, 251, 251);
+    background-image: url('images/pexels-ella-olsson-164077asas4.jpg');
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(3px);
+   
+  }
+  .logo{
+    color: rgb(99 39 0);
+    font-size: 31px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 700;
+  }
+  .header_class {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    /* align-items: flex-end;
+    justify-content: flex-start; */
+    align-self: flex-start;
+  }
+  .nav{
+    align-self: flex-end;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+  }
+  .center_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 177px;
+    color: rgb(205, 74, 13);
+    font-family: 'Brush Script MT', cursive;
+    
+  }
+  .center_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    
+  }
+  .center_buttons button{
+    border: 3px solid rgb(205, 74, 13);
+    background-color: rgb(205, 74, 13);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 17px;
+  }
+  .center_buttons button:hover{
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+
+
+  /* .class_body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .class_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .class_image img{
+    width: 817px;
+    height: 50vh;
+    border-radius: 111px;
+    filter: blur(8px);
+
+  } */
